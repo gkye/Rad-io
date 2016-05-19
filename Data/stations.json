@@ -142,5 +142,13 @@
       "station_desc":"",
       "station_descLong":"",
       "id":"18"
+   },
+   {
+      "station_name":"FunX HipHop",
+      "station_url":"http://icecast.omroep.nl/funx-hiphop-bb-mp3",
+      "station_genre":"HipHop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"19"
    }
 ]
