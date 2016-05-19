@@ -150,5 +150,45 @@
       "station_desc":"",
       "station_descLong":"",
       "id":"19"
+   },
+   {
+      "station_name":"Fuddle Dance Radio",
+      "station_url":"http://eu8.fastcast4u.com:5208/;stream.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"20"
+   },
+      {
+      "station_name":"DFM.ru - Trep",
+      "station_url":"http://icecast.radiodfm.cdnvideo.ru/st07.mp3",
+      "station_genre":"Electronica-Drum & Bass",
+      "station_desc":"Top None Stop music",
+      "station_descLong":"",
+      "id":"21"
+   },
+      {
+      "station_name":"Panach FM 101.8",
+      "station_url":"http://onair.turkuazfm.be:1018/stream,
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"22"
+   },
+   {
+      "station_name":"Sportstalk 940",
+      "station_url":"http://crystalout.surfernetwork.com:8001/WCIT-AM_MP3",
+      "station_genre":"Talk",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"23"
+   },
+      {
+      "station_name":"inRadio",
+      "station_url":"Radio about radio. News about the radio industry.",
+      "station_genre":"Talk",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"24"
    }
 ]
