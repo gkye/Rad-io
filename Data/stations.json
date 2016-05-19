@@ -1,0 +1,146 @@
+[
+   {
+      "station_name":"Beat Maker Radio",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/beat_maker_radio_with_ads.mp3",
+      "station_genre":"HipHop",
+      "station_desc":"Beat Maker Radio MP3 Stream",
+      "station_descLong":"",
+      "id":"1"
+   },
+   {
+      "station_name":"Blueprint Radio",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/blueprint_radio_with_ads.mp3",
+      "station_genre":"HipHop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"2"
+   },
+   {
+      "station_name":"Classical Holiday",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/classical_holiday_with_ads.acp",
+      "station_genre":"Holiday",
+      "station_desc":"Holiday classics",
+      "station_descLong":"",
+      "id":"3"
+   },
+   {
+      "station_name":"Country Holidays",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/country_holidays_with_ads.mp3",
+      "station_genre":"Country",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"4"
+   },
+   {
+      "station_name":"Graceland Radio",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/graceland_radio_with_ads.mp3",
+      "station_genre":"Country",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"5"
+   },
+   {
+      "station_name":"TuneIn Acoustic",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_acoustic_with_ads.mp3",
+      "station_genre":"Indie",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"6"
+   },
+   {
+      "station_name":"TuneIn French Pop 40",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_french_pop_40_with_ads.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"7"
+   },
+   {
+      "station_name":"TuneIn Gospel",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_gospel_with_ads.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"8"
+   },
+   {
+      "station_name":"TuneIn Hard Rock",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_hard_rock_with_ads.mp3",
+      "station_genre":"Rock",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"9"
+   },
+   {
+      "station_name":"Ultra Hip",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/ultra_hip_with_ads.mp3",
+      "station_genre":"Jazz",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"10"
+   },
+   {
+      "station_name":"TuneIn World Beat",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_world_beat_with_ads.mp3",
+      "station_genre":"World",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"11"
+   },
+   {
+      "station_name":"TuneIn Workout",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_workout_with_ads.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"12"
+   },
+   {
+      "station_name":"King of Pop Radio",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/king_of_pop_radio_with_ads.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"13"
+   },
+   {
+      "station_name":"JT Radio",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/jt_radio_with_ads.mp3",
+      "station_genre":"Pop",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"14"
+   },
+   {
+      "station_name":"Sub Pop Radio",
+      "station_url":"http:\/\/209.237.244.98:8004\/",
+      "station_genre":"Pop",
+      "station_desc":"Midsized Record Label",
+      "station_descLong":"",
+      "id":"15"
+   },
+   {
+      "station_name":"Sounds of the 80s",
+      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_sounds_of_the_80s_with_ads.mp3",
+      "station_genre":"Retro",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"16"
+   },
+   {
+      "station_name":"Spaceland Radio",
+      "station_url":"http:\/\/rfcmedia.streamguys1.com\/echo.aac",
+      "station_genre":"Indie",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"17"
+   },
+   {
+      "station_name":"Radio 1190",
+      "station_url":"http:\/\/radio1190.colorado.edu:8000\/high.mp3",
+      "station_genre":"Rock",
+      "station_desc":"",
+      "station_descLong":"",
+      "id":"18"
+   }
+]
