@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F632C5181CC59B129E0103E /* Pods_Rad_io.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3A7EA9FB02DD7C67870C65 /* Pods_Rad_io.framework */; };
+		5EB4F0CA1CED772E00731380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0C91CED772E00731380 /* AppDelegate.swift */; };
+		5EB4F0CF1CED772E00731380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4F0CD1CED772E00731380 /* Main.storyboard */; };
+		5EB4F0D11CED772E00731380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4F0D01CED772E00731380 /* Assets.xcassets */; };
+		5EB4F0D41CED772E00731380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4F0D21CED772E00731380 /* LaunchScreen.storyboard */; };
+		5EB4F0DF1CED9E0C00731380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0DE1CED9E0C00731380 /* ViewController.swift */; };
+		5EB4F0E11CED9E2A00731380 /* NowPlayingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E01CED9E2A00731380 /* NowPlayingProtocol.swift */; };
+		5EB4F0E51CED9F7B00731380 /* CurrentTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E41CED9F7B00731380 /* CurrentTrack.swift */; };
+		5EB4F0E71CEDA02E00731380 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E61CEDA02E00731380 /* Station.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3A7EA9FB02DD7C67870C65 /* Pods_Rad_io.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rad_io.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB4F0C61CED772E00731380 /* Rad-io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rad-io.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB4F0C91CED772E00731380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EB4F0CE1CED772E00731380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EB4F0D01CED772E00731380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EB4F0D31CED772E00731380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EB4F0D51CED772E00731380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB4F0DE1CED9E0C00731380 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EB4F0E01CED9E2A00731380 /* NowPlayingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingProtocol.swift; sourceTree = "<group>"; };
+		5EB4F0E41CED9F7B00731380 /* CurrentTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTrack.swift; sourceTree = "<group>"; };
+		5EB4F0E61CEDA02E00731380 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		95515EC7C4A253A6FE53AFDA /* Pods-Rad-io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rad-io.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io.release.xcconfig"; sourceTree = "<group>"; };
+		ED015DCA8D8936D03998AE27 /* Pods-Rad-io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rad-io.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB4F0C31CED772E00731380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F632C5181CC59B129E0103E /* Pods_Rad_io.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E657511352D8121254F993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3A7EA9FB02DD7C67870C65 /* Pods_Rad_io.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EB4F0BD1CED772D00731380 = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0C81CED772E00731380 /* Rad-io */,
+				5EB4F0C71CED772E00731380 /* Products */,
+				F1A2731443C40052D934CE4F /* Pods */,
+				20E657511352D8121254F993 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EB4F0C71CED772E00731380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0C61CED772E00731380 /* Rad-io.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EB4F0C81CED772E00731380 /* Rad-io */ = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0E21CED9EEB00731380 /* API */,
+				5EB4F0E31CED9EEB00731380 /* Models */,
+				5EB4F0DC1CED9E0C00731380 /* Protocols */,
+				5EB4F0DD1CED9E0C00731380 /* ViewControllers */,
+				5EB4F0C91CED772E00731380 /* AppDelegate.swift */,
+				5EB4F0CD1CED772E00731380 /* Main.storyboard */,
+				5EB4F0D01CED772E00731380 /* Assets.xcassets */,
+				5EB4F0D21CED772E00731380 /* LaunchScreen.storyboard */,
+				5EB4F0D51CED772E00731380 /* Info.plist */,
+			);
+			path = "Rad-io";
+			sourceTree = "<group>";
+		};
+		5EB4F0DC1CED9E0C00731380 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0E01CED9E2A00731380 /* NowPlayingProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5EB4F0DD1CED9E0C00731380 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0DE1CED9E0C00731380 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5EB4F0E21CED9EEB00731380 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5EB4F0E31CED9EEB00731380 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EB4F0E41CED9F7B00731380 /* CurrentTrack.swift */,
+				5EB4F0E61CEDA02E00731380 /* Station.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1A2731443C40052D934CE4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED015DCA8D8936D03998AE27 /* Pods-Rad-io.debug.xcconfig */,
+				95515EC7C4A253A6FE53AFDA /* Pods-Rad-io.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EB4F0C51CED772E00731380 /* Rad-io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EB4F0D81CED772E00731380 /* Build configuration list for PBXNativeTarget "Rad-io" */;
+			buildPhases = (
+				CD5887C7BF7682A3AFC25C24 /* 📦 Check Pods Manifest.lock */,
+				5EB4F0C21CED772E00731380 /* Sources */,
+				5EB4F0C31CED772E00731380 /* Frameworks */,
+				5EB4F0C41CED772E00731380 /* Resources */,
+				913BD6D0BD3A9387D2EC44E1 /* 📦 Embed Pods Frameworks */,
+				571CD45FEFA9FEF751C20C1C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rad-io";
+			productName = "Rad-io";
+			productReference = 5EB4F0C61CED772E00731380 /* Rad-io.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EB4F0BE1CED772E00731380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = George;
+				TargetAttributes = {
+					5EB4F0C51CED772E00731380 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 5EB4F0C11CED772E00731380 /* Build configuration list for PBXProject "Rad-io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EB4F0BD1CED772D00731380;
+			productRefGroup = 5EB4F0C71CED772E00731380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EB4F0C51CED772E00731380 /* Rad-io */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EB4F0C41CED772E00731380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4F0D41CED772E00731380 /* LaunchScreen.storyboard in Resources */,
+				5EB4F0D11CED772E00731380 /* Assets.xcassets in Resources */,
+				5EB4F0CF1CED772E00731380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		571CD45FEFA9FEF751C20C1C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		913BD6D0BD3A9387D2EC44E1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5887C7BF7682A3AFC25C24 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EB4F0C21CED772E00731380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB4F0E11CED9E2A00731380 /* NowPlayingProtocol.swift in Sources */,
+				5EB4F0E71CEDA02E00731380 /* Station.swift in Sources */,
+				5EB4F0E51CED9F7B00731380 /* CurrentTrack.swift in Sources */,
+				5EB4F0DF1CED9E0C00731380 /* ViewController.swift in Sources */,
+				5EB4F0CA1CED772E00731380 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EB4F0CD1CED772E00731380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB4F0CE1CED772E00731380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EB4F0D21CED772E00731380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EB4F0D31CED772E00731380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EB4F0D61CED772E00731380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EB4F0D71CED772E00731380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EB4F0D91CED772E00731380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED015DCA8D8936D03998AE27 /* Pods-Rad-io.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rad-io/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GeorgeKye.Rad-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EB4F0DA1CED772E00731380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95515EC7C4A253A6FE53AFDA /* Pods-Rad-io.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Rad-io/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GeorgeKye.Rad-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EB4F0C11CED772E00731380 /* Build configuration list for PBXProject "Rad-io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB4F0D61CED772E00731380 /* Debug */,
+				5EB4F0D71CED772E00731380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EB4F0D81CED772E00731380 /* Build configuration list for PBXNativeTarget "Rad-io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB4F0D91CED772E00731380 /* Debug */,
+				5EB4F0DA1CED772E00731380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EB4F0BE1CED772E00731380 /* Project object */;
+}

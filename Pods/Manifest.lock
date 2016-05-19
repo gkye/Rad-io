@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (3.4.0)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - InteractivePlayerView (1.2)
+  - KDEAudioPlayer (0.9.0)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - InteractivePlayerView
+  - KDEAudioPlayer
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  InteractivePlayerView: 0bf92028f4657db316f7d9caaf7012f81744c78c
+  KDEAudioPlayer: 67c2de50af38d045638b15f246113594b22a7ec2
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: daeb0cd2baf3ffd41a402a24f9fe510317b58961
+
+COCOAPODS: 1.0.0
