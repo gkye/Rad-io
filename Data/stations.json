@@ -44,17 +44,6 @@
       "stream":"http://uk3-vn.mixstream.net:11110"
    },
    {
-      "station_name":"Back to the 90's",
-      "station_genre":"Pop/Top40",
-      "image":{
-         "url":"https://cdn.devality.com/station/28106/150_x_150.jpeg",
-         "thumb":{
-            "url":"https://cdn.devality.com/station/28106/thumb_150_x_150.jpeg"
-         }
-      },
-      "stream":"http://listen.radionomy.com/back-to-the-90-s"
-   },
-   {
       "station_name":"Jah Live Radio  (HQ)",
       "station_genre":"Reggae",
       "image":{
