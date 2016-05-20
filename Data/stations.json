@@ -155,19 +155,6 @@
       "stream":"http://206.190.136.141:2252/Live"
    },
    {
-      "station_name":"SPiNZ FM",
-      "station_genre":"Variety",
-      "image":{
-         "image":{
-            "url":"https://cdn.devality.com/station/25035/spinz_logo.jpg",
-            "thumb":{
-               "url":"https://cdn.devality.com/station/25035/thumb_spinz_logo.jpg"
-            }
-         }
-      },
-      "stream":"http://206.190.136.141:2252/Live"
-   },
-   {
       "station_name":"Radio Lippe Welle Hamm",
       "station_genre":"Top40/Pop",
       "image":{
@@ -221,5 +208,181 @@
          }
       },
       "stream":"http://stream.antenne.com/schlager/mp3-128/dirble/"
+   },
+   {
+      "station_name":"Bad Girl Radio",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/bad_girl_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"Beat Maker Radio",
+      "station_genre":"HipHop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/beat_maker_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"Blueprint Radio",
+      "station_genre":"HipHop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/blueprint_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"JT Radio",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/jt_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"King of Pop Radio",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/king_of_pop_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"Queen Bey Radio",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/queen_bey_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"Ray of Light Radio",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/ray_of_light_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"6 Radio",
+      "station_genre":"HipHop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/six_radio_with_ads.mp3"
+   },
+   {
+      "station_name":"Swift Hits",
+      "station_genre":"Pop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/swift_hits_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Chill",
+      "station_genre":"Chill",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_chill_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Classic Hip Hop",
+      "station_genre":"Hiphop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_classic_hip_hop_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Classic Rock Hits",
+      "station_genre":"Rock",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_classic_rock_hits_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Classic Soul",
+      "station_genre":"Soul",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_classic_soul_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Roots Reggae",
+      "station_genre":"Reggae",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_roots_reggae_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Soft Rock",
+      "station_genre":"Rock",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_soft_rock_with_ads.mp3"
+   },
+   {
+      "station_name":"TuneIn Underground Hip Hop",
+      "station_genre":"HipHop",
+      "image":{
+         "url":"",
+         "thumb":{
+            "url":""
+         }
+      },
+      "stream":"http://tuneinads.moodmedia.com/streams/tunein_underground_hip_hop_with_ads.mp3"
    }
 ]
