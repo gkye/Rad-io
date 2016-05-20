@@ -1,194 +1,143 @@
 [
    {
-      "station_name":"Beat Maker Radio",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/beat_maker_radio_with_ads.mp3",
-      "station_genre":"HipHop",
-      "station_desc":"Beat Maker Radio MP3 Stream",
-      "station_descLong":"",
-      "id":"1"
+      "station_name":"iplay radio uk",
+      "station_genre":"Electronic",
+      "image":{
+         "url":"https://cdn.devality.com/station/27816/image.png",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/27816/thumb_image.png"
+         }
+      },
+      "stream":"http://82.199.155.35:8012"
    },
-   {
-      "station_name":"Blueprint Radio",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/blueprint_radio_with_ads.mp3",
-      "station_genre":"HipHop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"2"
+      {
+      "station_name":"181.fm - The Eagle",
+      "station_genre":"Classic Rock",
+       "image":{
+         "url":"https://cdn.devality.com/station/12375/181.FM.jpg",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/12375/thumb_181.FM.jpg"
+         }
+      },
+      "stream":"http://relay2.181.fm:10000"
    },
-   {
-      "station_name":"Classical Holiday",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/classical_holiday_with_ads.acp",
-      "station_genre":"Holiday",
-      "station_desc":"Holiday classics",
-      "station_descLong":"",
-      "id":"3"
-   },
-   {
-      "station_name":"Country Holidays",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/country_holidays_with_ads.mp3",
+    {
+      "station_name":"Country Tunes Radio",
       "station_genre":"Country",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"4"
+      "image":{
+         "url":"https://cdn.devality.com/station/27723/ctrnew.png",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/27723/thumb_ctrnew.png"
+         }
+      },
+      "stream":"http://countrytunesradio.out.airtime.pro:8000/countrytunesradio_a?_ga=1.36415209.816139279.1452145051"
    },
    {
-      "station_name":"Graceland Radio",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/graceland_radio_with_ads.mp3",
-      "station_genre":"Country",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"5"
+      "station_name":"GK International",
+      "station_genre":"Pop/Top40",
+      "image":{
+         "url":"https://cdn.devality.com/station/6544/GK_International_logo_Profile_Rounded_border_500x500.png",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/6544/thumb_GK_International_logo_Profile_Rounded_border_500x500.png"
+         }
+      },
+     "stream":"http://uk3-vn.mixstream.net:11110"
    },
    {
-      "station_name":"TuneIn Acoustic",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_acoustic_with_ads.mp3",
-      "station_genre":"Indie",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"6"
+      "station_name":"Back to the 90's",
+      "station_genre":"Pop/Top40",
+      "image":{
+         "url":"https://cdn.devality.com/station/28106/150_x_150.jpeg",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/28106/thumb_150_x_150.jpeg"
+         }
+      },
+     "stream":"http://listen.radionomy.com/back-to-the-90-s"
    },
-   {
-      "station_name":"TuneIn French Pop 40",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_french_pop_40_with_ads.mp3",
+     {
+      "station_name":"Jah Live Radio  (HQ)",
+      "station_genre":"Reggae",
+      "image":{
+         "url":"https://cdn.devality.com/station/6902/Jah_Live_Logo.png",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/6902/thumb_Jah_Live_Logo.png"
+         }
+      },
+     "stream":"http://204.45.126.170:8226/;stream.mp3"
+   },
+     {
+      "station_name":"24/7 MJ Radio",
       "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"7"
+     "image":{
+         "url":"https://cdn.devality.com/station/13871/1a41303e-ce7b-4485-a6fa-e2a0793169bd.jpg",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/13871/thumb_1a41303e-ce7b-4485-a6fa-e2a0793169bd.jpg"
+         }
+      },
+     "stream":"http://streaming.radio.co/sff3b8dc94/listen"
    },
    {
-      "station_name":"TuneIn Gospel",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_gospel_with_ads.mp3",
+      "station_name":"Aloe Radio",
       "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"8"
-   },
-   {
-      "station_name":"TuneIn Hard Rock",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_hard_rock_with_ads.mp3",
-      "station_genre":"Rock",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"9"
-   },
-   {
-      "station_name":"Ultra Hip",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/ultra_hip_with_ads.mp3",
+     "image":{
+         "url":"https://cdn.devality.com/station/28140/ALoe_Logo.png",
+         "thumb":{
+            "url":"https://cdn.devality.com/station/28140/thumb_ALoe_Logo.png"
+         }
+      },
+   "stream": "http://streaming.radio.co:80/s4edc926e9/listen"
+},
+{
+      "station_name":"#HipHop",
+      "station_genre":"HipHop",
+     "image":{
+         "image":{
+            "url":"https://cdn.devality.com/station/24113/HipHop.png",
+            "thumb":{
+               "url":"https://cdn.devality.com/station/24113/thumb_HipHop.png"
+            }
+         }
+      },
+      "stream":"http://HearMe.fm:8320/stream"
+},
+{
+      "station_name":"RFPRADIO.COM | Ultimate Hip Hop Classics",
+      "station_genre":"HipHop",
+     "image":{
+         "image":{
+            "url":"https://cdn.devality.com/station/13556/2015-appicon-Cover.jpg",
+            "thumb":{
+               "url":"https://cdn.devality.com/station/13556/thumb_2015-appicon-Cover.jpg"
+            }
+         }
+      },
+     "stream":"http://184.164.138.163:8126/;stream.mp3"
+},
+{
+      "station_name":"NRK Jazz - Oslo",
       "station_genre":"Jazz",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"10"
-   },
-   {
-      "station_name":"TuneIn World Beat",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_world_beat_with_ads.mp3",
-      "station_genre":"World",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"11"
-   },
-   {
-      "station_name":"TuneIn Workout",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_workout_with_ads.mp3",
-      "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"12"
-   },
-   {
-      "station_name":"King of Pop Radio",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/king_of_pop_radio_with_ads.mp3",
-      "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"13"
-   },
-   {
-      "station_name":"JT Radio",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/jt_radio_with_ads.mp3",
-      "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"14"
-   },
-   {
-      "station_name":"Sub Pop Radio",
-      "station_url":"http:\/\/209.237.244.98:8004\/",
-      "station_genre":"Pop",
-      "station_desc":"Midsized Record Label",
-      "station_descLong":"",
-      "id":"15"
-   },
-   {
-      "station_name":"Sounds of the 80s",
-      "station_url":"http:\/\/tuneinads.moodmedia.com\/streams\/tunein_sounds_of_the_80s_with_ads.mp3",
-      "station_genre":"Retro",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"16"
-   },
-   {
-      "station_name":"Spaceland Radio",
-      "station_url":"http:\/\/rfcmedia.streamguys1.com\/echo.aac",
-      "station_genre":"Indie",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"17"
-   },
-   {
-      "station_name":"Radio 1190",
-      "station_url":"http:\/\/radio1190.colorado.edu:8000\/high.mp3",
-      "station_genre":"Rock",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"18"
-   },
-   {
-      "station_name":"FunX HipHop",
-      "station_url":"http://icecast.omroep.nl/funx-hiphop-bb-mp3",
-      "station_genre":"HipHop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"19"
-   },
-   {
-      "station_name":"Fuddle Dance Radio",
-      "station_url":"http://eu8.fastcast4u.com:5208/;stream.mp3",
-      "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"20"
-   },
-   {
-      "station_name":"DFM.ru - Trep",
-      "station_url":"http://icecast.radiodfm.cdnvideo.ru/st07.mp3",
-      "station_genre":"Electronica-Drum & Bass",
-      "station_desc":"Top None Stop music",
-      "station_descLong":"",
-      "id":"21"
-   },
-   {
-      "station_name":"Panach FM 101.8",
-      "station_url":"http://onair.turkuazfm.be:1018/stream",
-      "station_genre":"Pop",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"22"
-   },
-   {
-      "station_name":"Sportstalk 940",
-      "station_url":"http://crystalout.surfernetwork.com:8001/WCIT-AM_MP3",
-      "station_genre":"Talk",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"23"
-   },
-   {
-      "station_name":"inRadio",
-      "station_url":"Radio about radio. News about the radio industry.",
-      "station_genre":"Talk",
-      "station_desc":"",
-      "station_descLong":"",
-      "id":"24"
-   }
+     "image":{
+         "image":{
+            "url":"https://cdn.devality.com/station/35906/w175.png",
+            "thumb":{
+               "url":"https://cdn.devality.com/station/35906/thumb_w175.png"
+            }
+         }
+      },
+    "stream":"http://lyd.nrk.no:80/nrk_radio_jazz_mp3_h"
+},
+{
+      "station_name":"M2 Jazz",
+      "station_genre":"Jazz",
+    "image":{
+         "image":{
+            "url":"https://cdn.devality.com/station/3678/m2_jazz_t.png",
+            "thumb":{
+               "url":"https://cdn.devality.com/station/3678/thumb_m2_jazz_t.png"
+            }
+         }
+      },
+    "stream":"http://live.m2stream.fr/m2jazz-128.mp3"
+}
+   
 ]
