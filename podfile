@@ -6,9 +6,6 @@ target 'Rad-io' do
   use_frameworks!
 
   # Pods for Rad-io
-
-pod 'KDEAudioPlayer'
-pod 'InteractivePlayerView'
 pod 'Alamofire'
 pod 'AlamofireImage'
 pod 'SwiftyJSON'

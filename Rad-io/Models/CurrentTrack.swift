@@ -11,8 +11,10 @@ import UIKit
 
 struct Track {
     var title: String = ""
-    var artworkURL: String = ""
-    var artworkImage = UIImage(named: "albumArt")
+    var artwork: String = ""
+    var artworkCover: String = ""
     var artworkLoaded = false
     var isPlaying: Bool = false
+    var itunesSearchTerm: String = ""
+    var image: UIImage = UIImage(named: placeHolderImg)!
 }

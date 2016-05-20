@@ -9,8 +9,10 @@
 import Foundation
 
 
-//protocol NowPlayingViewControllerDelegate: class {
-//    func songMetaDataDidUpdate(track: Track)
-//    func artworkDidUpdate(track: Track)
-//    func trackPlayingToggled(track: Track)
-//}
+protocol NowPlayingViewControllerDelegate: class {
+    
+    func songMetaDataDidUpdate(track: Track)
+    func artworkDidUpdate(track: Track)
+    func trackPlayingToggled(track: Track)
+    
+}

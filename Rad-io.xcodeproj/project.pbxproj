@@ -16,6 +16,8 @@
 		5EB4F0E11CED9E2A00731380 /* NowPlayingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E01CED9E2A00731380 /* NowPlayingProtocol.swift */; };
 		5EB4F0E51CED9F7B00731380 /* CurrentTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E41CED9F7B00731380 /* CurrentTrack.swift */; };
 		5EB4F0E71CEDA02E00731380 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E61CEDA02E00731380 /* Station.swift */; };
+		5EB4F0E91CEE2FB800731380 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0E81CEE2FB800731380 /* StationsViewController.swift */; };
+		5EB4F0EB1CEE35D700731380 /* ItunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4F0EA1CEE35D700731380 /* ItunesAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		5EB4F0E01CED9E2A00731380 /* NowPlayingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingProtocol.swift; sourceTree = "<group>"; };
 		5EB4F0E41CED9F7B00731380 /* CurrentTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTrack.swift; sourceTree = "<group>"; };
 		5EB4F0E61CEDA02E00731380 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		5EB4F0E81CEE2FB800731380 /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		5EB4F0EA1CEE35D700731380 /* ItunesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItunesAPI.swift; sourceTree = "<group>"; };
 		95515EC7C4A253A6FE53AFDA /* Pods-Rad-io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rad-io.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io.release.xcconfig"; sourceTree = "<group>"; };
 		ED015DCA8D8936D03998AE27 /* Pods-Rad-io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rad-io.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rad-io/Pods-Rad-io.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +103,7 @@
 		5EB4F0DD1CED9E0C00731380 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5EB4F0E81CEE2FB800731380 /* StationsViewController.swift */,
 				5EB4F0DE1CED9E0C00731380 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -107,6 +112,7 @@
 		5EB4F0E21CED9EEB00731380 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				5EB4F0EA1CEE35D700731380 /* ItunesAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -164,6 +170,12 @@
 				TargetAttributes = {
 					5EB4F0C51CED772E00731380 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2JJGDVS5KS;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -252,8 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB4F0E11CED9E2A00731380 /* NowPlayingProtocol.swift in Sources */,
+				5EB4F0E91CEE2FB800731380 /* StationsViewController.swift in Sources */,
 				5EB4F0E71CEDA02E00731380 /* Station.swift in Sources */,
 				5EB4F0E51CED9F7B00731380 /* CurrentTrack.swift in Sources */,
+				5EB4F0EB1CEE35D700731380 /* ItunesAPI.swift in Sources */,
 				5EB4F0DF1CED9E0C00731380 /* ViewController.swift in Sources */,
 				5EB4F0CA1CED772E00731380 /* AppDelegate.swift in Sources */,
 			);
@@ -369,10 +383,13 @@
 			baseConfigurationReference = ED015DCA8D8936D03998AE27 /* Pods-Rad-io.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Rad-io/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GeorgeKye.Rad-io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -381,10 +398,13 @@
 			baseConfigurationReference = 95515EC7C4A253A6FE53AFDA /* Pods-Rad-io.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Rad-io/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "GeorgeKye.Rad-io";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
